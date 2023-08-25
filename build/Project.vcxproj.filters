@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\CvControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\processes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A810B250-FE87-3566-85AF-DB8DE7879738}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

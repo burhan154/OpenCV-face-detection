@@ -1,0 +1,3 @@
+C:/Users/Test/Desktop/2023 yaz/Bitirme - G191210077/build/CMakeFiles/Project.dir
+C:/Users/Test/Desktop/2023 yaz/Bitirme - G191210077/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Test/Desktop/2023 yaz/Bitirme - G191210077/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\TEST\DESKTOP\2023 YAZ\BITIRME - G191210077\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Test/Desktop/2023 yaz/Bitirme - G191210077" "-BC:/Users/Test/Desktop/2023 yaz/Bitirme - G191210077/build" --check-stamp-file "C:/Users/Test/Desktop/2023 yaz/Bitirme - G191210077/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
