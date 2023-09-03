@@ -11,7 +11,8 @@ file(GLOB SOURCE_FILES ${PROJECT_SOURCE_DIR}/*.cpp)
 
 set(PROJECT_SOURCES 
                     ${SOURCE_FILES}
-                    ${PROJECT_SOURCE_DIR}/processes.cpp  
+                    ${PROJECT_SOURCE_DIR}/Screen.cpp  
+                    ${PROJECT_SOURCE_DIR}/Processes.cpp  
                     ${PROJECT_SOURCE_DIR}/CvControl.cpp     
                     )
 

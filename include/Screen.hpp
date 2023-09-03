@@ -7,42 +7,32 @@
 //					 	   G191210077 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+#ifndef Screen_hpp
+#define Screen_hpp
 
-#ifndef CvControl_hpp
-#define CvControl_hpp
 
 #include<string>
 #include <opencv2\opencv.hpp>
 #include <opencv2\core.hpp>
 #include <opencv2\highgui.hpp>
 #include <opencv2\videoio.hpp>
-#include "Processes.hpp"
+#include "CvControl.hpp"
 
 using namespace std;
 using namespace cv;
 
-class CvControl
+class Screen
 {
-
 private:
-    Processes process;
-   
-    
-    int show(string windowName);
-
-    struct Video
-	{
-		int width, height;
-		int ntotalframes;
-		int fps;
-		int nframe;
-	};
-    Video video;
+	int frameCounter;
+    int frameSize;
+    CvControl controller;
 public:
-    Mat frame;
-    int startVideo(string path, string windowName);
-    int startImage(string path, string windowName);
-    int startCamera(string windowName);
+    Screen();
+    Screen(int frame);
+    int start();
+    //Mat detectFaces(Mat & frame);
+    //void overlayImage(const Mat &background, const Mat &foreground, Mat &output, Point2i location);
 };
 
 

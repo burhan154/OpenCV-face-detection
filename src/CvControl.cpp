@@ -22,6 +22,7 @@ using namespace std;
 
 
 int CvControl::show(string windowName){
+	//imshow(windowName, frame);
     imshow(windowName, process.butterflyFilter(frame));
     return 1;
 }
@@ -54,14 +55,22 @@ int CvControl::startVideo(string path, string windowName){
 	video.width = (int)capture.get(cv::CAP_PROP_FRAME_WIDTH);
 	video.height = (int)capture.get(cv::CAP_PROP_FRAME_HEIGHT);
 
+	//int frame_counter = 0;
+
 	namedWindow(windowName, cv::WINDOW_AUTOSIZE);
 	uchar fillValue = 128;
 	while (key != 'q') {
 		capture.read(frame);
-		if (frame.empty()) break;
-
-        show(windowName);
 		
+		// if (frame_counter == capture.get(CAP_PROP_FRAME_COUNT)) {
+		// 	frame_counter=0;
+		// 	capture.set(CAP_PROP_POS_FRAMES,0);
+		// }
+		if (frame.empty()) break;
+		
+		//cout<< capture.get(CAP_PROP_FRAME_COUNT);
+        show(windowName);
+		//frame_counter++;
 		key = waitKey(1);
 	}
 	destroyWindow(windowName);

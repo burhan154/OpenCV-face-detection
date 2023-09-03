@@ -314,8 +314,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\CvControl.cpp" />
+    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\Processes.cpp" />
+    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\Screen.cpp" />
     <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\main.cpp" />
-    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\processes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\build\ZERO_CHECK.vcxproj">

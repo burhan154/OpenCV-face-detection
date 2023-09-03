@@ -4,10 +4,13 @@
     <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\CvControl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\main.cpp">
+    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\Processes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\processes.cpp">
+    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Test\Desktop\2023 yaz\Bitirme - G191210077\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

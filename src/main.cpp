@@ -9,14 +9,12 @@
 
 #include <iostream>
 #include <string>
-#include "CvControl.hpp"
+#include "Screen.hpp"
 
 using namespace std;
 
 int main(){
-	CvControl controller;
-	//controller.startCamera("Camera Screen");
-	controller.startImage("data/test.jpg","Image Screen");
-	//controller.startVideo("data/test.mp4","Video Screen");
+	Screen screen;
+	screen.start();
 	return 0;
 }

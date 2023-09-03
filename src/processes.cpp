@@ -14,7 +14,7 @@
 #include <opencv2\core.hpp>
 #include <opencv2\highgui.hpp>
 #include <opencv2\videoio.hpp>
-#include "processes.hpp"
+#include "Processes.hpp"
 
 using namespace cv;
 using namespace std;
